@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xc</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2:first-letter {
+            color: chartreuse;
+            padding: 20px;
+            border: 2px solid orangered;
+        }
+        #red {
+            color: brown;
+            background: darksalmon;
+        }
+        p.jh:first-line{
+            border: 5px dotted pink;
+        }
+        .dop_jh{
+            color: blue;
+        }
+        [title*="11"] {
+            font-size: 30px;
+        }
+        [_target="self"]{
+            font-style: italic;
+        }
+        [title$="2"] {
+            font-size: 40px;
+        }
+        [title^="11"] {
+            font-size: 50px;
+            text-decoration: underline;
+        }
+        [class~='jh'] {
+            background-color: darkorange;
+        }
+        A:link {
+            color: #884040;
+        }
+        A:visited {
+            color: #3d1d32;
+        }
+        A:hover {
+            color: #888240;
+        }
+        A:active {
+            color: #40406b;
+        }
+    </style>
+</head>
+<body>
+<h2 class="jh">red</h2>
+<p class="jh">Lorem Sed eget justo at risus consectetur convallis. Cras non aliquam turpis, sed condimentum magna. Aliquam id diam nec eros vulputate porttitor. Quisque suscipit viverra orci vitae convallis. Phasellus sollicitudin elit id odio auctor, eget feugiat augue finibus. Proin pulvinar diam in pellentesque auctor. Mauris ut sapien at elit sollicitudin vulputate. Aenean efficitur, nibh ut bibendum luctus, magna nunc blandit tortor, a aliquet leo metus quis erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum, ante in rutrum congue, ex enim consequat turpis, eget rhoncus quam lacus eget justo. Morbi vel consectetur tortor. In eleifend nisl ac sem gravida, a interdum odio accumsan.</p>
+<p style="color: blueviolet">fuuuu</p>
+<p id="red">llllll</p>
+<p class="jh dop_jh">i dont know</p>
+<a href="#" _target="blank" title="112222">Link1</a>
+<a href="#" _target="self" title="2536411554">Link2</a>
+<a href="#" _target="self" title="11112">Link3</a>
+</body>
+</html>
