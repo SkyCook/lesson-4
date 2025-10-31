@@ -1,7 +1,7 @@
-body {
+.price {
     font-family: "Lucida Console", Arial, sans-serif;
 }
-div {
+.price div {
     border: 3px solid orangered;
     border-radius: 5px;
     width: 250px;
@@ -20,25 +20,25 @@ div {
     text-transform: uppercase;
     font-weight: normal;
 }
-p {
+.price p {
     font-size: 45px;
     font-weight: bold;
     color: black;
     margin: 0;
 }
-sub, sup {
+.price sub, .price sup {
     font-weight: normal;
     font-size: 15px;
     position: relative;
 }
-sub {
+.price sub {
     top:-2px
 }
-sup {
+.price sup {
     top:-12px;
     right: 3px;
 }
-ul {
+.price ul {
     list-style-type: none;
     text-align: left;
     color: #797474;
@@ -46,18 +46,18 @@ ul {
     width: 90%;
     margin: 15px auto;
 }
-li:nth-child(odd) {
+.price li:nth-child(odd) {
     background-color: aliceblue;
 }
-li:nth-child(even) {
+.price li:nth-child(even) {
     background-color: #f1efef;
 }
-li {
+.price li {
     padding: 5px 0 5px 60px;
     background: url("arrow.png") no-repeat;
     background-position: 25px 5px;
 }
-a {
+.price a {
     display: inline-block;
     text-decoration: none;
     color: white;

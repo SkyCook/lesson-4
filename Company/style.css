@@ -1,0 +1,60 @@
+.logo ul {
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 160px;
+}
+section.logo{
+    width: 90%;
+    margin: 60px auto;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+.logo a{
+    color: darkviolet;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo ul a:hover{
+    border-bottom: 6px solid #494996;
+    padding-bottom: 55px;
+}
+.logo li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.logo ul a:focus, .logo ul a:active{
+    border-bottom: 6px solid #494996;
+    padding-bottom: 55px;
+    color: red;
+}
+.logo h2{
+    text-transform: uppercase;
+    font-size: 48px;
+    width: 65%;
+    margin: 0 auto;
+}
+.logo div:last-child{
+    background: url("title-back.jpg") no-repeat;
+    background-size: cover;
+    color: White;
+    padding-bottom: 170px;
+}
+.logo h3{
+    padding-top: 170px;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+.p1{
+    font-style: italic;
+    width: 35%;
+    margin: 25px auto;
+}
+.p2 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid white;
+    padding: 20px 60px;
+}
+
